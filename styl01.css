@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 1.5em;
+    }
+}
+
+img {
+    width: 50%;
+    margin-left: 20%;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/*header*/
+header {
+    background-color: lightskyblue;
+    background-image: url(images/deadlift_1.jpg);
+    /* background-size: cover; */
+    background-position: center;
+    padding: 80px;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+  }
+.my-class1 {
+    background-color: royalblue;
+    opacity: 80%;
+}
+
+a:-webkit-any-link {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: midnightblue;
+}
+
+section {
+    display: -webkit-flex;
+    display: flex;
+
+}
+
+/* menu */
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: lightskyblue;
+    padding: 20px;
+
+}
+nav li {
+    font-weight: 900;
+    font-size: large;
+    color: white;
+}
+
+/* lista  */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+/* artykuł */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+/* stopka */
+footer {
+    background-color: lightskyblue;
+    padding: 10px;
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+
+/* responsywność */
+@media (max-width: 600px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+/* formularz */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightblue;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* etykiety */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* pola tekstowe */
+input[type="number"],
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* przyciski */
+input[type="button"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* wynik */
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
