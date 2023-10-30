@@ -28,14 +28,14 @@ header img {
 header {
     background-color: lightskyblue;
     background-image: url(images/deadlift_1.jpg);
-    /* background-size: cover; */
+    background-size: cover;
     background-position: center;
-    padding: 80px;
+    padding: 5vw;
     text-align: center;
     color: white;
-    font-size: 80px;
+    font-size: 8vw;
     font-weight: 900;
-  }
+}
 .my-class1 {
     background-color: royalblue;
     opacity: 80%;
